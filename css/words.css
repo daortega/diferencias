@@ -1,0 +1,116 @@
+#id-link{
+  font-size: 12px;
+  padding: 0.5em;
+  float: right;
+}
+
+.gran-dato{font-size: 48px; text-align: center; padding-bottom: 0.3em;}
+.icono-subtitle{padding: 1em 0; text-align: center}
+
+/* Header con análisis global del icono */
+  #identificacion{display: block;}
+
+  #todo-respuestas{
+  text-align: center;
+  padding-top: 2em;
+}
+
+.nomenclatura{
+  height: 25px;
+  float:left;
+  margin: 0.5em;
+}
+
+.circulo{
+  padding-bottom: 0.5em;
+}
+/* Sección: respuestas procesadas y ordenadas <3*/
+  section{
+        float: left;
+        display: block;
+      }
+
+  #content{padding-top: 4em;}
+  .linear {
+    display: inline;
+    float: left;
+    padding: 1.5em;
+    text-align: -webkit-center;
+    vertical-align: middle;
+    /*max-width: 100px;
+    max-height: 100px;
+    border: 1px solid yellow;*/
+  }
+
+  .linear img{height: 8px;}
+
+  #correct .linear{
+    float: right;
+    z-index: 30;
+    background: url(../image/circle1.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin: -14px;
+    height: 100px;
+  }
+  #almost-correct .linear{
+    float: right;
+    z-index: 30;
+    background: url(../image/circle2.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin: -14px;
+    height: 100px;
+  }
+  #doubtful .linear{
+    float: right;
+    z-index: 30;
+    background: url(../image/circle3.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin: -14px;
+    height: 100px;
+  }
+  #incorrect .linear{
+    float: right;
+    z-index: 30;
+    background: url(../image/circle4.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin: -14px;
+    height: 100px;
+    min-width: 90px
+  }
+  #opposite .linear{
+    float: right;
+    z-index: 30;
+    background: url(../image/circle5.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin: -14px;
+    height: 100px;
+    min-width: 90px
+  }
+  #no-answer .linear{
+    float: right;
+    z-index: 30;
+    background: url(../image/circle6.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    margin: -14px;
+    height: 100px;
+    min-width: 90px
+  }
+
+  .respuestas {font-size: 11px;
+    max-width: 50px;
+    margin: 5px;
+}
+
+#total-respuestas {
+  padding: 1em 0 2em 0;
+}
+
+#pictograma-title{
+  padding-bottom: 2em;
+}
